@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack-A-Mole</title>
+    <link rel="stylesheet" href="wom.css">
+</head>
+<body>
+
+    <div class="game">
+
+        <button id="start" class="start">START GAME</button>
+
+        <div id="pauseIcon">⏸️</div>
+
+        <div class="top">
+
+            <div class="score-box">
+                <div class="icon">🏆</div>
+                <div>
+                    <h3>SCORE</h3>
+                    <p id="score">0</p>
+                </div>
+            </div>
+
+            <div class="title">
+                <h1>WHACK-A-MOLE</h1>
+            </div>
+
+            <div class="score-box">
+                <div class="icon">🕐</div>
+                <div>
+                    <h3>TIME</h3>
+                    <p id="time">30</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="board">
+
+            <div class="hole"></div>
+
+            <div class="hole">
+                <span id="mole" class="mole">🐹</span>
+            </div>
+
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+
+        </div>
+
+    </div>
+
+    <script src="wom.js"></script>
+
+</body>
+</html>
